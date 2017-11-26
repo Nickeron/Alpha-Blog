@@ -1,4 +1,4 @@
-$navbar-default-bg: #0431B4;
+$navbar-default-bg: black;
 
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
@@ -23,6 +23,41 @@ $navbar-default-bg: #0431B4;
  text-align: center; 
 }
 
+.jumbotron{
+  background-image: asset-url('background2.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
 .jumbotron h2{
-  color:#fff;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  margin-top: 45px;
+  padding-top: 5px;
+}
+
+.footer a{
+  color: #222;
+}
+
+.footer small{
+  float: left;
+}
+
+.footer ul{
+  float: right;
+  list-style: none;
+}
+
+.footer li{
+  float: left;
+  margin-left: 15px;
 }
